@@ -1,0 +1,233 @@
+2025-04-05 01:21:44 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 01:21:47 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-05 01:21:47 | unimol_tools/data/conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-05 01:21:47 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-05 01:21:47 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-05 01:21:47 | unimol_tools/data/split.py | 74 | WARNING | Uni-Mol Tools | [93m[93mOnly one fold is used for training, no splitting is performed.[0m[0m
+2025-04-05 01:21:47 | unimol_tools/data/datahub.py | 130 | INFO | Uni-Mol Tools | Kfold is 1, all data is used for training.
+2025-04-05 01:21:47 | unimol_tools/train.py | 217 | INFO | Uni-Mol Tools | Output directory already exists: ./exp
+2025-04-05 01:21:47 | unimol_tools/train.py | 220 | INFO | Uni-Mol Tools | Warning: Overwrite output directory: ./exp
+2025-04-05 01:21:48 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 01:21:48 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 01:21:53 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 01:21:54 | unimol_tools/models/nnmodel.py | 175 | INFO | Uni-Mol Tools | start training Uni-Mol:unimolv2
+2025-04-05 01:22:30 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [1/50] train_loss: 86.1714, val_loss: 8.7443, val_mse: 292.2234, lr: 0.000067
+2025-04-05 01:23:05 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [2/50] train_loss: 21.7816, val_loss: 26.4355, val_mse: 900.1217, lr: 0.000099
+2025-04-05 01:23:37 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [3/50] train_loss: 14.2461, val_loss: 2.0965, val_mse: 71.5984, lr: 0.000097
+2025-04-05 01:24:11 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [4/50] train_loss: 7.5723, val_loss: 10.0068, val_mse: 339.0764, lr: 0.000095
+2025-04-05 01:24:43 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [5/50] train_loss: 2.1406, val_loss: 0.7388, val_mse: 25.1908, lr: 0.000093
+2025-04-05 01:25:15 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [6/50] train_loss: 1.0492, val_loss: 0.2085, val_mse: 7.0584, lr: 0.000091
+2025-04-05 01:25:48 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [7/50] train_loss: 1.4130, val_loss: 0.2222, val_mse: 7.4861, lr: 0.000089
+2025-04-05 01:26:18 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [8/50] train_loss: 0.7236, val_loss: 2.9433, val_mse: 99.5671, lr: 0.000087
+2025-04-05 01:26:51 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [9/50] train_loss: 0.7920, val_loss: 0.2677, val_mse: 9.1215, lr: 0.000085
+2025-04-05 01:27:23 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [10/50] train_loss: 0.6767, val_loss: 0.1344, val_mse: 4.4920, lr: 0.000082
+2025-04-05 01:27:56 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [11/50] train_loss: 0.4461, val_loss: 0.5462, val_mse: 18.6307, lr: 0.000080
+2025-04-05 01:28:28 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [12/50] train_loss: 0.3877, val_loss: 0.6205, val_mse: 21.0628, lr: 0.000078
+2025-04-05 01:28:58 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [13/50] train_loss: 0.4008, val_loss: 1.0330, val_mse: 35.0917, lr: 0.000076
+2025-04-05 01:29:31 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [14/50] train_loss: 0.4327, val_loss: 0.1795, val_mse: 6.0870, lr: 0.000074
+2025-04-05 01:30:05 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [15/50] train_loss: 0.3224, val_loss: 0.4640, val_mse: 15.4443, lr: 0.000072
+2025-04-05 01:30:39 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [16/50] train_loss: 0.2795, val_loss: 0.1513, val_mse: 5.1626, lr: 0.000070
+2025-04-05 01:31:14 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [17/50] train_loss: 0.3701, val_loss: 0.2304, val_mse: 7.8316, lr: 0.000068
+2025-04-05 01:31:48 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [18/50] train_loss: 0.3224, val_loss: 0.5027, val_mse: 17.1151, lr: 0.000066
+2025-04-05 01:32:21 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [19/50] train_loss: 0.3956, val_loss: 0.5435, val_mse: 18.1520, lr: 0.000064
+2025-04-05 01:32:55 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [20/50] train_loss: 0.2280, val_loss: 0.2937, val_mse: 9.8607, lr: 0.000062
+2025-04-05 01:32:55 | unimol_tools/tasks/trainer.py | 925 | WARNING | Uni-Mol Tools | [93m[93mEarly stopping at epoch: 20[0m[0m
+2025-04-05 01:32:55 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 01:32:56 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 01:33:03 | unimol_tools/models/nnmodel.py | 241 | INFO | Uni-Mol Tools | fold 0, result {'mse': 4.492045879364014, 'mae': 1.5266656875610352, 'r2': 0.8675059080123901, 'spearmanr': 0.9014670190365253, 'pearsonr': 0.9331165}
+2025-04-05 01:33:03 | unimol_tools/models/nnmodel.py | 259 | INFO | Uni-Mol Tools | Uni-Mol metrics score: 
+{'mse': 4.492045675023389, 'mae': 1.5266657098732608, 'r2': 0.867505933638539, 'spearmanr': 0.9014670190365253, 'pearsonr': 0.9331165254726532}
+2025-04-05 01:33:03 | unimol_tools/models/nnmodel.py | 260 | INFO | Uni-Mol Tools | Uni-Mol & Metric result saved!
+2025-04-05 01:33:03 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 01:33:08 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-05 01:33:08 | unimol_tools/data/conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-05 01:33:08 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-05 01:33:08 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-05 01:33:08 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 01:33:08 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 01:33:13 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 01:33:14 | unimol_tools/models/nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-05 01:33:15 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 01:33:16 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 01:33:23 | unimol_tools/predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 4.492045706679507, 'mae': 1.526665737324915, 'r2': 0.8675059354477952, 'spearmanr': 0.9014670190365253, 'pearsonr': 0.9331165261992485}
+2025-04-05 01:33:23 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 01:33:25 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-05 01:33:25 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 97.81% of molecules.
+2025-04-05 01:33:25 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [8, 24, 81, 144, 208, 217]
+2025-04-05 01:33:25 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 01:33:25 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 01:33:31 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 01:33:32 | unimol_tools/models/nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-05 01:33:32 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 01:33:33 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 01:33:34 | unimol_tools/predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 5.608199918430242, 'mae': 1.5653364335533477, 'r2': 0.7168885059028623, 'spearmanr': 0.8622151332721206, 'pearsonr': 0.8549406080958897}
+2025-04-05 01:33:34 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 01:33:36 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-05 01:33:36 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 96.77% of molecules.
+2025-04-05 01:33:36 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [12]
+2025-04-05 01:33:36 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 01:33:36 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 01:33:41 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 01:33:43 | unimol_tools/models/nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-05 01:33:43 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 01:33:44 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 01:33:44 | unimol_tools/predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 3.1068546728737503, 'mae': 1.4512416166259399, 'r2': 0.9427648390048115, 'spearmanr': 0.9280888724212453, 'pearsonr': 0.9774089502845036}
+2025-04-05 01:44:23 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 01:44:27 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-05 01:44:27 | unimol_tools/data/conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-05 01:44:27 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-05 01:44:27 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-05 01:44:27 | unimol_tools/data/split.py | 74 | WARNING | Uni-Mol Tools | [93m[93mOnly one fold is used for training, no splitting is performed.[0m[0m
+2025-04-05 01:44:27 | unimol_tools/data/datahub.py | 130 | INFO | Uni-Mol Tools | Kfold is 1, all data is used for training.
+2025-04-05 01:44:27 | unimol_tools/train.py | 217 | INFO | Uni-Mol Tools | Output directory already exists: ./exp
+2025-04-05 01:44:27 | unimol_tools/train.py | 220 | INFO | Uni-Mol Tools | Warning: Overwrite output directory: ./exp
+2025-04-05 01:44:27 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 01:44:27 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 01:44:33 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 01:44:34 | unimol_tools/models/nnmodel.py | 175 | INFO | Uni-Mol Tools | start training Uni-Mol:unimolv2
+2025-04-05 01:45:08 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [1/100] train_loss: 92.2091, val_loss: 6.9326, val_mse: 232.9694, lr: 0.000033
+2025-04-05 01:45:44 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [2/100] train_loss: 9.7193, val_loss: 5.4569, val_mse: 185.7075, lr: 0.000067
+2025-04-05 01:46:22 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [3/100] train_loss: 14.0786, val_loss: 5.6257, val_mse: 189.2208, lr: 0.000100
+2025-04-05 01:46:58 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [4/100] train_loss: 8.8470, val_loss: 19.3996, val_mse: 657.4404, lr: 0.000099
+2025-04-05 01:47:33 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [5/100] train_loss: 6.6339, val_loss: 13.3443, val_mse: 452.5092, lr: 0.000098
+2025-04-05 01:48:08 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [6/100] train_loss: 3.1732, val_loss: 0.6814, val_mse: 23.2290, lr: 0.000097
+2025-04-05 01:48:45 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [7/100] train_loss: 4.4830, val_loss: 0.3475, val_mse: 11.7890, lr: 0.000096
+2025-04-05 01:49:23 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [8/100] train_loss: 1.4605, val_loss: 0.2494, val_mse: 8.4155, lr: 0.000095
+2025-04-05 01:50:00 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [9/100] train_loss: 1.4008, val_loss: 0.9329, val_mse: 31.4436, lr: 0.000094
+2025-04-05 01:50:37 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [10/100] train_loss: 1.0505, val_loss: 2.8233, val_mse: 95.5578, lr: 0.000093
+2025-04-05 01:51:12 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [11/100] train_loss: 1.0324, val_loss: 0.2949, val_mse: 9.9621, lr: 0.000092
+2025-04-05 01:51:46 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [12/100] train_loss: 0.5202, val_loss: 0.8733, val_mse: 29.5869, lr: 0.000091
+2025-04-05 01:52:22 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [13/100] train_loss: 0.5557, val_loss: 0.9920, val_mse: 33.6235, lr: 0.000090
+2025-04-05 01:52:57 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [14/100] train_loss: 1.1188, val_loss: 0.5214, val_mse: 17.8142, lr: 0.000089
+2025-04-05 01:53:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [15/100] train_loss: 1.2274, val_loss: 0.3377, val_mse: 11.3189, lr: 0.000088
+2025-04-05 01:54:07 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [16/100] train_loss: 0.4413, val_loss: 0.9202, val_mse: 31.2778, lr: 0.000087
+2025-04-05 01:54:42 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [17/100] train_loss: 0.3248, val_loss: 0.1304, val_mse: 4.4504, lr: 0.000086
+2025-04-05 01:55:19 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [18/100] train_loss: 0.5054, val_loss: 0.2257, val_mse: 7.6653, lr: 0.000085
+2025-04-05 01:55:53 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [19/100] train_loss: 0.3045, val_loss: 0.4071, val_mse: 13.7752, lr: 0.000084
+2025-04-05 01:56:27 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [20/100] train_loss: 0.3493, val_loss: 0.1961, val_mse: 6.5459, lr: 0.000082
+2025-04-05 01:57:03 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [21/100] train_loss: 0.3977, val_loss: 0.1560, val_mse: 5.2659, lr: 0.000081
+2025-04-05 01:57:38 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [22/100] train_loss: 0.2944, val_loss: 0.1875, val_mse: 6.3317, lr: 0.000080
+2025-04-05 01:58:13 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [23/100] train_loss: 0.3402, val_loss: 0.3572, val_mse: 12.1495, lr: 0.000079
+2025-04-05 01:58:48 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [24/100] train_loss: 0.2091, val_loss: 0.3104, val_mse: 10.5170, lr: 0.000078
+2025-04-05 01:59:23 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [25/100] train_loss: 0.2987, val_loss: 0.5329, val_mse: 18.0348, lr: 0.000077
+2025-04-05 01:59:57 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [26/100] train_loss: 0.2827, val_loss: 0.3068, val_mse: 10.3727, lr: 0.000076
+2025-04-05 02:00:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [27/100] train_loss: 0.1290, val_loss: 0.1129, val_mse: 3.8418, lr: 0.000075
+2025-04-05 02:01:08 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [28/100] train_loss: 0.1593, val_loss: 0.1584, val_mse: 5.4098, lr: 0.000074
+2025-04-05 02:01:43 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [29/100] train_loss: 0.1138, val_loss: 0.1305, val_mse: 4.3658, lr: 0.000073
+2025-04-05 02:02:19 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [30/100] train_loss: 0.1836, val_loss: 0.0793, val_mse: 2.6632, lr: 0.000072
+2025-04-05 02:02:55 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [31/100] train_loss: 0.1340, val_loss: 0.0750, val_mse: 2.5421, lr: 0.000071
+2025-04-05 02:03:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [32/100] train_loss: 0.2174, val_loss: 0.1050, val_mse: 3.5825, lr: 0.000070
+2025-04-05 02:04:06 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [33/100] train_loss: 0.1697, val_loss: 0.1824, val_mse: 6.1569, lr: 0.000069
+2025-04-05 02:04:41 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [34/100] train_loss: 0.1535, val_loss: 0.2068, val_mse: 7.0621, lr: 0.000068
+2025-04-05 02:05:17 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [35/100] train_loss: 0.1184, val_loss: 0.1205, val_mse: 4.0762, lr: 0.000067
+2025-04-05 02:05:53 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [36/100] train_loss: 0.1416, val_loss: 0.2051, val_mse: 6.9478, lr: 0.000066
+2025-04-05 02:06:27 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [37/100] train_loss: 0.1126, val_loss: 0.1265, val_mse: 4.2951, lr: 0.000065
+2025-04-05 02:07:01 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [38/100] train_loss: 0.1414, val_loss: 0.0489, val_mse: 1.6737, lr: 0.000064
+2025-04-05 02:07:37 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [39/100] train_loss: 0.1327, val_loss: 0.1262, val_mse: 4.2874, lr: 0.000063
+2025-04-05 02:08:10 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [40/100] train_loss: 0.0821, val_loss: 0.0411, val_mse: 1.3937, lr: 0.000062
+2025-04-05 02:08:48 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [41/100] train_loss: 0.0835, val_loss: 0.0671, val_mse: 2.2688, lr: 0.000061
+2025-04-05 02:09:23 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [42/100] train_loss: 0.0889, val_loss: 0.1143, val_mse: 3.8389, lr: 0.000060
+2025-04-05 02:09:59 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [43/100] train_loss: 0.1177, val_loss: 0.0583, val_mse: 1.9813, lr: 0.000059
+2025-04-05 02:10:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [44/100] train_loss: 0.0633, val_loss: 0.0606, val_mse: 2.0566, lr: 0.000058
+2025-04-05 02:11:07 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [45/100] train_loss: 0.0603, val_loss: 0.0737, val_mse: 2.4747, lr: 0.000057
+2025-04-05 02:11:41 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [46/100] train_loss: 0.1350, val_loss: 0.0485, val_mse: 1.6465, lr: 0.000056
+2025-04-05 02:12:15 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [47/100] train_loss: 0.0817, val_loss: 0.0406, val_mse: 1.3849, lr: 0.000055
+2025-04-05 02:12:53 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [48/100] train_loss: 0.0822, val_loss: 0.0693, val_mse: 2.3608, lr: 0.000054
+2025-04-05 02:13:29 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [49/100] train_loss: 0.0638, val_loss: 0.1047, val_mse: 3.5417, lr: 0.000053
+2025-04-05 02:14:01 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [50/100] train_loss: 0.0504, val_loss: 0.0323, val_mse: 1.0967, lr: 0.000052
+2025-04-05 02:14:38 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [51/100] train_loss: 0.0551, val_loss: 0.0275, val_mse: 0.9406, lr: 0.000051
+2025-04-05 02:15:15 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [52/100] train_loss: 0.0570, val_loss: 0.0462, val_mse: 1.5708, lr: 0.000049
+2025-04-05 02:15:50 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [53/100] train_loss: 0.0588, val_loss: 0.1573, val_mse: 5.2747, lr: 0.000048
+2025-04-05 02:16:26 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [54/100] train_loss: 0.0489, val_loss: 0.0256, val_mse: 0.8706, lr: 0.000047
+2025-04-05 02:17:04 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [55/100] train_loss: 0.0356, val_loss: 0.0234, val_mse: 0.7979, lr: 0.000046
+2025-04-05 02:17:39 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [56/100] train_loss: 0.0454, val_loss: 0.0259, val_mse: 0.8790, lr: 0.000045
+2025-04-05 02:18:14 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [57/100] train_loss: 0.0397, val_loss: 0.0590, val_mse: 2.0122, lr: 0.000044
+2025-04-05 02:18:49 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [58/100] train_loss: 0.0356, val_loss: 0.0310, val_mse: 1.0510, lr: 0.000043
+2025-04-05 02:19:24 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [59/100] train_loss: 0.0376, val_loss: 0.1168, val_mse: 3.9722, lr: 0.000042
+2025-04-05 02:19:59 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [60/100] train_loss: 0.0600, val_loss: 0.0310, val_mse: 1.0519, lr: 0.000041
+2025-04-05 02:20:35 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [61/100] train_loss: 0.0497, val_loss: 0.0146, val_mse: 0.4969, lr: 0.000040
+2025-04-05 02:21:14 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [62/100] train_loss: 0.0405, val_loss: 0.0318, val_mse: 1.0862, lr: 0.000039
+2025-04-05 02:21:49 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [63/100] train_loss: 0.0410, val_loss: 0.0173, val_mse: 0.5899, lr: 0.000038
+2025-04-05 02:22:24 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [64/100] train_loss: 0.0292, val_loss: 0.0182, val_mse: 0.6150, lr: 0.000037
+2025-04-05 02:22:58 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [65/100] train_loss: 0.0335, val_loss: 0.0383, val_mse: 1.3059, lr: 0.000036
+2025-04-05 02:23:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [66/100] train_loss: 0.0250, val_loss: 0.0141, val_mse: 0.4783, lr: 0.000035
+2025-04-05 02:24:08 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [67/100] train_loss: 0.0322, val_loss: 0.0328, val_mse: 1.1150, lr: 0.000034
+2025-04-05 02:24:42 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [68/100] train_loss: 0.0238, val_loss: 0.0132, val_mse: 0.4490, lr: 0.000033
+2025-04-05 02:25:17 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [69/100] train_loss: 0.0232, val_loss: 0.0317, val_mse: 1.0740, lr: 0.000032
+2025-04-05 02:25:50 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [70/100] train_loss: 0.0331, val_loss: 0.0139, val_mse: 0.4735, lr: 0.000031
+2025-04-05 02:26:26 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [71/100] train_loss: 0.0214, val_loss: 0.0210, val_mse: 0.7158, lr: 0.000030
+2025-04-05 02:27:00 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [72/100] train_loss: 0.0233, val_loss: 0.0123, val_mse: 0.4194, lr: 0.000029
+2025-04-05 02:27:37 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [73/100] train_loss: 0.0175, val_loss: 0.0218, val_mse: 0.7380, lr: 0.000028
+2025-04-05 02:28:13 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [74/100] train_loss: 0.0181, val_loss: 0.0227, val_mse: 0.7642, lr: 0.000027
+2025-04-05 02:28:49 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [75/100] train_loss: 0.0186, val_loss: 0.0081, val_mse: 0.2749, lr: 0.000026
+2025-04-05 02:29:26 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [76/100] train_loss: 0.0184, val_loss: 0.0184, val_mse: 0.6231, lr: 0.000025
+2025-04-05 02:30:01 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [77/100] train_loss: 0.0181, val_loss: 0.0132, val_mse: 0.4423, lr: 0.000024
+2025-04-05 02:30:37 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [78/100] train_loss: 0.0153, val_loss: 0.0162, val_mse: 0.5452, lr: 0.000023
+2025-04-05 02:31:11 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [79/100] train_loss: 0.0128, val_loss: 0.0083, val_mse: 0.2822, lr: 0.000022
+2025-04-05 02:31:47 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [80/100] train_loss: 0.0147, val_loss: 0.0100, val_mse: 0.3387, lr: 0.000021
+2025-04-05 02:32:23 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [81/100] train_loss: 0.0152, val_loss: 0.0120, val_mse: 0.4069, lr: 0.000020
+2025-04-05 02:32:57 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [82/100] train_loss: 0.0139, val_loss: 0.0089, val_mse: 0.3043, lr: 0.000019
+2025-04-05 02:33:33 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [83/100] train_loss: 0.0107, val_loss: 0.0088, val_mse: 0.2984, lr: 0.000018
+2025-04-05 02:34:07 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [84/100] train_loss: 0.0112, val_loss: 0.0094, val_mse: 0.3199, lr: 0.000016
+2025-04-05 02:34:43 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [85/100] train_loss: 0.0096, val_loss: 0.0100, val_mse: 0.3390, lr: 0.000015
+2025-04-05 02:35:18 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [86/100] train_loss: 0.0099, val_loss: 0.0078, val_mse: 0.2658, lr: 0.000014
+2025-04-05 02:35:55 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [87/100] train_loss: 0.0100, val_loss: 0.0077, val_mse: 0.2637, lr: 0.000013
+2025-04-05 02:36:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [88/100] train_loss: 0.0090, val_loss: 0.0054, val_mse: 0.1830, lr: 0.000012
+2025-04-05 02:37:08 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [89/100] train_loss: 0.0084, val_loss: 0.0075, val_mse: 0.2568, lr: 0.000011
+2025-04-05 02:37:44 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [90/100] train_loss: 0.0091, val_loss: 0.0065, val_mse: 0.2203, lr: 0.000010
+2025-04-05 02:38:18 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [91/100] train_loss: 0.0076, val_loss: 0.0049, val_mse: 0.1663, lr: 0.000009
+2025-04-05 02:38:55 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [92/100] train_loss: 0.0083, val_loss: 0.0061, val_mse: 0.2077, lr: 0.000008
+2025-04-05 02:39:31 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [93/100] train_loss: 0.0074, val_loss: 0.0046, val_mse: 0.1587, lr: 0.000007
+2025-04-05 02:40:08 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [94/100] train_loss: 0.0064, val_loss: 0.0049, val_mse: 0.1672, lr: 0.000006
+2025-04-05 02:40:42 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [95/100] train_loss: 0.0072, val_loss: 0.0046, val_mse: 0.1575, lr: 0.000005
+2025-04-05 02:41:19 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [96/100] train_loss: 0.0069, val_loss: 0.0045, val_mse: 0.1536, lr: 0.000004
+2025-04-05 02:41:56 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [97/100] train_loss: 0.0059, val_loss: 0.0045, val_mse: 0.1553, lr: 0.000003
+2025-04-05 02:42:32 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [98/100] train_loss: 0.0060, val_loss: 0.0041, val_mse: 0.1414, lr: 0.000002
+2025-04-05 02:43:09 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [99/100] train_loss: 0.0057, val_loss: 0.0039, val_mse: 0.1338, lr: 0.000001
+2025-04-05 02:43:45 | unimol_tools/tasks/trainer.py | 499 | INFO | Uni-Mol Tools | Epoch [100/100] train_loss: 0.0058, val_loss: 0.0040, val_mse: 0.1369, lr: 0.000000
+2025-04-05 02:43:45 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 02:43:47 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 02:43:54 | unimol_tools/models/nnmodel.py | 241 | INFO | Uni-Mol Tools | fold 0, result {'mse': 0.13379725813865662, 'mae': 0.18456824123859406, 'r2': 0.9960536360740662, 'spearmanr': 0.9988277756958223, 'pearsonr': 0.9981323}
+2025-04-05 02:43:54 | unimol_tools/models/nnmodel.py | 259 | INFO | Uni-Mol Tools | Uni-Mol metrics score: 
+{'mse': 0.1337972603640823, 'mae': 0.18456823900981734, 'r2': 0.996053614683344, 'spearmanr': 0.9988277756958223, 'pearsonr': 0.99813240328708}
+2025-04-05 02:43:54 | unimol_tools/models/nnmodel.py | 260 | INFO | Uni-Mol Tools | Uni-Mol & Metric result saved!
+2025-04-05 02:43:54 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 02:43:59 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-05 02:43:59 | unimol_tools/data/conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-05 02:43:59 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-05 02:43:59 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-05 02:43:59 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 02:43:59 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 02:44:04 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 02:44:05 | unimol_tools/models/nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-05 02:44:06 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 02:44:06 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 02:44:13 | unimol_tools/predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 0.13379725103122134, 'mae': 0.18456824163971886, 'r2': 0.9960536150403193, 'spearmanr': 0.9988277756958223, 'pearsonr': 0.9981324033218525}
+2025-04-05 02:44:13 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 02:44:15 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-05 02:44:15 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 97.81% of molecules.
+2025-04-05 02:44:15 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [8, 24, 81, 144, 208, 217]
+2025-04-05 02:44:15 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 02:44:15 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 02:44:21 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 02:44:22 | unimol_tools/models/nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-05 02:44:22 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 02:44:23 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 02:44:25 | unimol_tools/predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 2.9351975869205646, 'mae': 1.1181781861686357, 'r2': 0.851826221177937, 'spearmanr': 0.918175138710972, 'pearsonr': 0.9270399270061085}
+2025-04-05 02:44:25 | unimol_tools/data/conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-05 02:44:27 | unimol_tools/data/conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-05 02:44:27 | unimol_tools/data/conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 96.77% of molecules.
+2025-04-05 02:44:27 | unimol_tools/data/conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [12]
+2025-04-05 02:44:27 | unimol_tools/tasks/trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-05 02:44:27 | unimol_tools/tasks/trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-05 02:44:32 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from /root/miniconda3/lib/python3.10/site-packages/unimol_tools-0.1.3-py3.10.egg/unimol_tools/weights/modelzoo/310M/checkpoint.pt
+2025-04-05 02:44:33 | unimol_tools/models/nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-05 02:44:34 | unimol_tools/models/unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./exp/model_0.pth
+2025-04-05 02:44:35 | unimol_tools/tasks/trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-05 02:44:35 | unimol_tools/predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 2.032924439462021, 'mae': 1.042739230980796, 'r2': 0.962549018272542, 'spearmanr': 0.9409986067909386, 'pearsonr': 0.9835696082830379}

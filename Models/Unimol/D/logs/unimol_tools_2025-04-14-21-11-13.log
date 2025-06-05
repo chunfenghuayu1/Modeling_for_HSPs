@@ -1,0 +1,148 @@
+2025-04-14 21:11:19 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:11:31 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-14 21:11:31 | unimol_tools\data\conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-14 21:11:31 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-14 21:11:31 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-14 21:11:33 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:11:33 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:11:36 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:11:37 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:11:38 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./D\model_0.pth
+2025-04-14 21:11:39 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:12:06 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 0.012174985958256682, 'mae': 0.06682653715058628, 'r2': 0.996479149588213, 'spearmanr': 0.9984174394794737, 'pearsonr': 0.9984016781389202}
+2025-04-14 21:12:06 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:12:09 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:12:09 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 97.81% of molecules.
+2025-04-14 21:12:09 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [8, 24, 81, 144, 208, 217]
+2025-04-14 21:12:09 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:12:09 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:12:11 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:12:12 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:12:12 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./D\model_0.pth
+2025-04-14 21:12:13 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:12:19 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 0.5668192408693207, 'mae': 0.45463768061060106, 'r2': 0.8226955597581219, 'spearmanr': 0.9190870665232062, 'pearsonr': 0.9140551929820016}
+2025-04-14 21:12:19 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:12:19 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:12:19 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 96.77% of molecules.
+2025-04-14 21:12:19 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [12]
+2025-04-14 21:12:19 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:12:19 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:12:21 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:12:22 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:12:23 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./D\model_0.pth
+2025-04-14 21:12:23 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:12:24 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 0.42294940864995706, 'mae': 0.48352584779304747, 'r2': 0.7876749226745519, 'spearmanr': 0.8859076152045574, 'pearsonr': 0.8875178391123241}
+2025-04-14 21:12:24 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:12:36 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-14 21:12:36 | unimol_tools\data\conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-14 21:12:36 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-14 21:12:36 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-14 21:12:36 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:12:36 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:12:38 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:12:39 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:12:39 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./P\model_0.pth
+2025-04-14 21:12:40 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:13:06 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 2.105895685382022, 'mae': 1.0740171738671036, 'r2': 0.8879900715841523, 'spearmanr': 0.9324226506488047, 'pearsonr': 0.9434699341216592}
+2025-04-14 21:13:06 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:13:09 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:13:09 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 97.81% of molecules.
+2025-04-14 21:13:09 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [8, 24, 81, 144, 208, 217]
+2025-04-14 21:13:09 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:13:09 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:13:11 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:13:12 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:13:12 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./P\model_0.pth
+2025-04-14 21:13:13 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:13:19 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 5.327963733231491, 'mae': 1.638932159782326, 'r2': 0.6911219094360783, 'spearmanr': 0.8203270522438307, 'pearsonr': 0.8331741513258897}
+2025-04-14 21:13:19 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:13:19 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:13:19 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 96.77% of molecules.
+2025-04-14 21:13:19 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [12]
+2025-04-14 21:13:19 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:13:19 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:13:21 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:13:22 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:13:22 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./P\model_0.pth
+2025-04-14 21:13:23 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:13:24 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 4.327837986187943, 'mae': 1.4031485946716802, 'r2': 0.8435124287899596, 'spearmanr': 0.9121182249270624, 'pearsonr': 0.9240783760039685}
+2025-04-14 21:13:24 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:13:36 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-14 21:13:36 | unimol_tools\data\conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-14 21:13:36 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-14 21:13:36 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-14 21:13:36 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:13:36 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:13:38 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:13:39 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:13:39 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./H/exp\model_0.pth
+2025-04-14 21:13:40 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:14:06 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 0.1337683938397104, 'mae': 0.1845986272041896, 'r2': 0.9960544661907405, 'spearmanr': 0.9988273115302883, 'pearsonr': 0.9981326487982223}
+2025-04-14 21:14:07 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:14:09 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:14:09 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 97.81% of molecules.
+2025-04-14 21:14:09 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [8, 24, 81, 144, 208, 217]
+2025-04-14 21:14:09 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:14:09 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:14:12 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:14:13 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:14:13 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./H/exp\model_0.pth
+2025-04-14 21:14:14 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:14:20 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 2.9352215710430682, 'mae': 1.118224549880863, 'r2': 0.8518250104185392, 'spearmanr': 0.918175138710972, 'pearsonr': 0.9270372356198808}
+2025-04-14 21:14:20 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:14:20 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:14:20 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 96.77% of molecules.
+2025-04-14 21:14:20 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [12]
+2025-04-14 21:14:20 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:14:20 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:14:23 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:14:23 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:14:24 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./H/exp\model_0.pth
+2025-04-14 21:14:25 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:14:25 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 2.03292165794779, 'mae': 1.0427361392301895, 'r2': 0.9625490695142098, 'spearmanr': 0.9409986067909386, 'pearsonr': 0.983569625084171}
+2025-04-14 21:15:04 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:15:16 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 99.82% of molecules.
+2025-04-14 21:15:16 | unimol_tools\data\conformer.py | 429 | INFO | Uni-Mol Tools | Failed conformers indices: [979, 1039]
+2025-04-14 21:15:16 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 99.09% of molecules.
+2025-04-14 21:15:16 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [5, 28, 395, 470, 650, 964, 970, 979, 1031, 1039]
+2025-04-14 21:15:16 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:15:16 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:15:18 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:15:19 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:15:19 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./P\model_0.pth
+2025-04-14 21:15:19 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:15:45 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 2.105895685382022, 'mae': 1.0740171738671036, 'r2': 0.8879900715841523, 'spearmanr': 0.9324226506488047, 'pearsonr': 0.9434699341216592}
+2025-04-14 21:15:45 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:15:48 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:15:48 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 97.81% of molecules.
+2025-04-14 21:15:48 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [8, 24, 81, 144, 208, 217]
+2025-04-14 21:15:48 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:15:48 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:15:50 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:15:51 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:15:52 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./P\model_0.pth
+2025-04-14 21:15:53 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:15:59 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 5.327963733231491, 'mae': 1.638932159782326, 'r2': 0.6911219094360783, 'spearmanr': 0.8203270522438307, 'pearsonr': 0.8331741513258897}
+2025-04-14 21:15:59 | unimol_tools\data\conformer.py | 409 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-04-14 21:15:59 | unimol_tools\data\conformer.py | 420 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-04-14 21:15:59 | unimol_tools\data\conformer.py | 437 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 96.77% of molecules.
+2025-04-14 21:15:59 | unimol_tools\data\conformer.py | 446 | INFO | Uni-Mol Tools | Failed 3d conformers indices: [12]
+2025-04-14 21:15:59 | unimol_tools\tasks\trainer.py | 77 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-04-14 21:15:59 | unimol_tools\tasks\trainer.py | 97 | INFO | Uni-Mol Tools | Using single GPU.
+2025-04-14 21:16:02 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from c:\Users\yuchen\miniconda3\envs\py311\Lib\site-packages\unimol_tools\weights\modelzoo/310M/checkpoint.pt
+2025-04-14 21:16:02 | unimol_tools\models\nnmodel.py | 282 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-04-14 21:16:03 | unimol_tools\models\unimolv2.py | 156 | INFO | Uni-Mol Tools | Loading pretrained weights from ./P\model_0.pth
+2025-04-14 21:16:03 | unimol_tools\tasks\trainer.py | 579 | INFO | Uni-Mol Tools | load model success!
+2025-04-14 21:16:04 | unimol_tools\predict.py | 103 | INFO | Uni-Mol Tools | final predict metrics score: 
+{'mse': 4.327837986187943, 'mae': 1.4031485946716802, 'r2': 0.8435124287899596, 'spearmanr': 0.9121182249270624, 'pearsonr': 0.9240783760039685}
