@@ -13,11 +13,11 @@ The research work is as follows:
 
 ## Environment Requirements
 
-==Python 3.8==、==cuda 11.8==、==PyTorch 2.2.2==、==PyG 2.5.2==、==RDKit 2024.3.5==、==PyBioMed==、==Scikit-learn==、==Pandas==、==Numpy==、==Chemprop==、==Uni-Mol tools==、==Hyperopt==、==XGBoost==
+`Python 3.8`、`cuda 11.8`、`PyTorch 2.2.2`、`PyG 2.5.2`、`RDKit 2024.3.5`、`PyBioMed`、`Scikit-learn`、`Pandas`、`Numpy`、`Chemprop`、`Uni-Mol tools`、`Hyperopt`、`XGBoost`
 
 ## Data
 
-The Dataset folder contains the required training set, test set, and external data set, named ==train_data.xlsx==, ==test_data.xlsx==, and ==data_out_feats.xlsx==.
+The Dataset folder contains the required training set, test set, and external data set, named `train_data.xlsx`, `test_data.xlsx`, and `data_out_feats.xlsx`.
 
 ## Execution Instructions
 
@@ -31,7 +31,7 @@ Utils folder: The Features folder contains a tool library for feature generation
 
 ## Notes
 
-- The GNN checkpoint has been saved as ==ATT_X.pth== and can be run directly in ==Predict_X.ipynb==.
-- Using the Uni-Mol model requires downloading the fine-tuned model from Hugging Face. To use the Uni-Mol model, you need to download the fine-tuned model from Hugging Face, then rename the downloaded model to ==model_0.pth== and save it in a directory such as ==Models/Unimol/D/exp===.
+- The GNN checkpoint has been saved as `ATT_X.pth` and can be run directly in `Predict_X.ipynb`.
+- Using the Uni-Mol model requires downloading the fine-tuned model from Hugging Face. To use the Uni-Mol model, you need to download the fine-tuned model from Hugging Face, then rename the downloaded model to `model_0.pth` and save it in a directory such as `Models/Unimol/D/exp`.
 
 [chunfenghuayu/HSP-Model · Hugging Face](https://huggingface.co/chunfenghuayu/HSP-Model)
