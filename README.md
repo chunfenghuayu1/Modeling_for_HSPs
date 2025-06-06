@@ -1,5 +1,7 @@
 # **Enhanced Prediction of Hansen Solubility Parameters via Graph Neural Networks and Fine-tuned Uni-Mol**
 
+![Scheme 1](./Scheme 1.jpeg)
+
 ## Project Overview
 
 Using three features—molecular descriptors, molecular fingerprints, and molecular graphs—combined with machine learning and GNNs to predict HSPs.
