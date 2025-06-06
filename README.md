@@ -1,6 +1,6 @@
 # **Enhanced Prediction of Hansen Solubility Parameters via Graph Neural Networks and Fine-tuned Uni-Mol**
 
-![Scheme 1](./Scheme 1.jpeg)
+![Scheme 1](./Scheme_1.jpeg)
 
 ## Project Overview
 
